@@ -2,9 +2,11 @@
   "name": "wetube_2021",
   "version": "1.0.0",
   "description": "Cloning Youtube again with Vanilla and NodeJS",
-  "main": "index.js",
   "author": "Hayeong Kim",
   "dependencies": {
     "express": "^4.17.1"
+  },
+  "scripts":{
+    "start":"node index.js"
   }
 }
