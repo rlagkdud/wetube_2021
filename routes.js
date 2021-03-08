@@ -1,5 +1,3 @@
-import { editVideo } from "./controllers/videoController";
-
 //global
 const HOME = "/";
 const JOIN = "/join";
