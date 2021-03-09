@@ -15,7 +15,6 @@ module.exports = {
     "prettier/prettier": "off",
     "no-console":"off",
     "spaced-comment":"off",
-    "no-else-return":"off",
-    "import/no-cycle":"off"
+    "no-else-return":"off"
   },
 };
