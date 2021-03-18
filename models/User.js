@@ -1,4 +1,5 @@
 import mongoose from "mongoose";
+import passportLocalMongoose from "passport-local-mongoose";
 
 const UserScheme = new mongoose.Schema({
     name: String,
@@ -7,6 +8,9 @@ const UserScheme = new mongoose.Schema({
     facebookId:Number,
     githubId:Number
 });
+
+UserScheme.plugin(passportLocalMongoose,{usernameField: "email"});
+
 const model = mongoose.model("User",UserScheme);
 
 export default model;
